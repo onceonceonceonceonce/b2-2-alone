@@ -3,7 +3,7 @@ def normalize_member_name(name: str) -> str:
 
 
 def count_words(text: str) -> int:
-    return len(text.split(" "))
+    return len(text.split())
 
 
 def is_even(number: int) -> bool:
